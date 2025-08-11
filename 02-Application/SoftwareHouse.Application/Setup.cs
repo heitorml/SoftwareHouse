@@ -13,6 +13,7 @@ namespace SoftwareHouse.Application
             //services.AddScoped<ICustomerCreateUseCase, CustomerCreateUseCase>();
 
             //services.AddScoped<ICustomerGetUseCase, CustomerGetUseCase>();
+
         }
 
     }
