@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Reponses\Budget\" />
+    <Folder Include="Reponses\Cost\" />
+    <Folder Include="Reponses\Customer\" />
+    <Folder Include="Reponses\Project\" />
+    <Folder Include="Request\Budget\" />
+    <Folder Include="Request\Cost\" />
+    <Folder Include="Request\Customer\" />
+    <Folder Include="Request\Project\" />
+  </ItemGroup>
+
+</Project>

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Worker">
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\02-Application\SoftwareHouse.Application\SoftwareHouse.Application.csproj" />
     <ProjectReference Include="..\..\..\SoftwareHouse.ServiceDefaults\SoftwareHouse.ServiceDefaults.csproj" />
   </ItemGroup>
 </Project>

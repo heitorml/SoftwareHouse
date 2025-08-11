@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\02-Application\SoftwareHouse.Application\SoftwareHouse.Application.csproj" />
     <ProjectReference Include="..\..\..\SoftwareHouse.ServiceDefaults\SoftwareHouse.ServiceDefaults.csproj" />
   </ItemGroup>
 </Project>

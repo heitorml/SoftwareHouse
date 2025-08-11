@@ -6,12 +6,10 @@ namespace SoftwareHouse.Infrastructure
 {
     public static class Setup
     {
-        public static void AddInfrastructure(this IServiceCollection services,
-            IConfiguration configuration)
+        public static void AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
         {
-            var connectionString = configuration.GetConnectionString("MongoDb");
-            var mongoClient = new MongoClient(connectionString);
-            var database = mongoClient.GetDatabase("SoftwareHouse");
+            var mongoClient = new MongoClient(configuration["MongoDb:ConnectionString"]);
+            var database = mongoClient.GetDatabase(configuration["MongoDb:DatabaseName"]);
 
             services.AddSingleton<IMongoClient>(mongoClient);
             services.AddSingleton(database);

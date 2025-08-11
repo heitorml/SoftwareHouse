@@ -12,9 +12,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\03-Domain\SoftwareHouse.Domain\SoftwareHouse.Domain.csproj" />
     <ProjectReference Include="..\..\04-Infrastructure\SoftwareHouse.Infrastructure\SoftwareHouse.Infrastructure.csproj" />
-    <ProjectReference Include="..\..\05-CrossCutting\SoftwareHouse.CrossCutting\SoftwareHouse.CrossCutting.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="UseCases\Notifications\" />
   </ItemGroup>
 
 </Project>

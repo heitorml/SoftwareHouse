@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareHouse.Budget", "01-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareHouse.Projects", "01-Presentation\Apis\SoftwareHouse.Projects\SoftwareHouse.Projects.csproj", "{8FED4FFF-4E5B-EACD-B349-C19B7A65A25F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareHouse.Dto", "05-CrossCutting\SoftwareHouse.Dto\SoftwareHouse.Dto.csproj", "{3A5CFD2A-FFB9-489C-998E-8072FB086C88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,10 @@ Global
 		{8FED4FFF-4E5B-EACD-B349-C19B7A65A25F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FED4FFF-4E5B-EACD-B349-C19B7A65A25F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FED4FFF-4E5B-EACD-B349-C19B7A65A25F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A5CFD2A-FFB9-489C-998E-8072FB086C88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A5CFD2A-FFB9-489C-998E-8072FB086C88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A5CFD2A-FFB9-489C-998E-8072FB086C88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A5CFD2A-FFB9-489C-998E-8072FB086C88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -100,6 +106,7 @@ Global
 		{9B8CEDEA-16B2-4201-AF85-3EDEB878A136} = {1F830653-2127-4A84-BBD6-F643181DCA2A}
 		{49300B0A-78DF-EF89-3221-8E4689474211} = {F681F24F-5FBF-493A-B66F-3D7AA809BD6C}
 		{8FED4FFF-4E5B-EACD-B349-C19B7A65A25F} = {37EB2FD5-7E12-45BF-8983-92204581F3B4}
+		{3A5CFD2A-FFB9-489C-998E-8072FB086C88} = {1F830653-2127-4A84-BBD6-F643181DCA2A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {742AAC32-999C-491C-A62E-B5FE2A89A998}

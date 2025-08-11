@@ -1,6 +1,6 @@
 ﻿namespace SoftwareHouse.Application.UseCases.Costs.Create
 {
-    public class CostsCreateUseCase : ICostsGetUseCase
+    public class CostsCreateUseCase : ICostsCreateUseCase
     {
     }
 }
