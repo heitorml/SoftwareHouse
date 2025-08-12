@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using SoftwareHouse.Application.UseCases.Authentication;
 using SoftwareHouse.Application.UseCases.Budgets.Create;
 using SoftwareHouse.Application.UseCases.Budgets.Get;
 using SoftwareHouse.Application.UseCases.Budgets.Update;
@@ -13,6 +14,7 @@ using SoftwareHouse.Application.UseCases.Projects.Create;
 using SoftwareHouse.Application.UseCases.Projects.Get;
 using SoftwareHouse.Application.UseCases.Projects.Update;
 using SoftwareHouse.Infrastructure;
+using SoftwareHouse.CrossCutting.Authentication;
 
 namespace SoftwareHouse.Application
 {
@@ -39,5 +41,10 @@ namespace SoftwareHouse.Application
             services.AddInfrastructure(configuration);
         }
 
+        public static void AddAuthentication(this IServiceCollection services, IConfiguration configuration)
+        {
+            services.AddJwt(configuration);
+            services.AddScoped<IAuthenticationUseCase, AuthenticationUseCase>();
+        }
     }
 }

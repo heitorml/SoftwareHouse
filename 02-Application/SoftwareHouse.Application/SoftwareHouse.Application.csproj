@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\04-Infrastructure\SoftwareHouse.Infrastructure\SoftwareHouse.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\05-CrossCutting\SoftwareHouse.Dto\SoftwareHouse.Dto.csproj" />
   </ItemGroup>
 
   <ItemGroup>
