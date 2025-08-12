@@ -32,7 +32,7 @@ Para esta solução foi escolhida a Clean Architecture que traz os benefícios
 - Inversão de dependência via interfaces
 - Facilidade para testes unitários e mocks
 
-### 🟣 .NET 8
+### 🟣 .NET Aspire
 - Última versão LTS da plataforma .NET
 - Alto desempenho e suporte a APIs modernas
 
