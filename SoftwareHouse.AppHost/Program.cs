@@ -8,4 +8,6 @@ builder.AddProject<Projects.SoftwareHouse_Budget>("softwarehouse-budget");
 
 builder.AddProject<Projects.SoftwareHouse_Projects>("softwarehouse-projects");
 
+builder.AddProject<Projects.SoftwareHouse_Users>("softwarehouse-users");
+
 builder.Build().Run();

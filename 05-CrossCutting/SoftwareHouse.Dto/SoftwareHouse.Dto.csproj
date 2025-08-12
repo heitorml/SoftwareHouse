@@ -17,4 +17,8 @@
     <Folder Include="Request\Project\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SoftwareHouse.CrossCutting\SoftwareHouse.CrossCutting.csproj" />
+  </ItemGroup>
+
 </Project>

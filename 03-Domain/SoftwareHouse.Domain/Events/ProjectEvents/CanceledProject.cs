@@ -2,5 +2,5 @@
 
 namespace SoftwareHouse.Domain.Events.ProjectEvents
 {
-    public record ProjectInApproval(Project Project);
+    public record CanceledProject(Project Project);
 }

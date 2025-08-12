@@ -18,6 +18,7 @@
   <ItemGroup>
     <ProjectReference Include="..\01-Presentation\Apis\SoftwareHouse.Customers\SoftwareHouse.Customers.csproj" />
     <ProjectReference Include="..\01-Presentation\Apis\SoftwareHouse.Projects\SoftwareHouse.Projects.csproj" />
+    <ProjectReference Include="..\01-Presentation\Apis\SoftwareHouse.Users\SoftwareHouse.Users.csproj" />
     <ProjectReference Include="..\01-Presentation\Workers\SoftwareHouse.Budget\SoftwareHouse.Budget.csproj" />
     <ProjectReference Include="..\01-Presentation\Workers\SoftwareHouse.Notification\SoftwareHouse.Notification.csproj" />
   </ItemGroup>

@@ -15,6 +15,7 @@ using SoftwareHouse.Application.UseCases.Projects.Get;
 using SoftwareHouse.Application.UseCases.Projects.Update;
 using SoftwareHouse.Infrastructure;
 using SoftwareHouse.CrossCutting.Authentication;
+using SoftwareHouse.Application.UseCases.Users.Create;
 
 namespace SoftwareHouse.Application
 {
@@ -37,6 +38,8 @@ namespace SoftwareHouse.Application
             services.AddTransient<IProjectCreateUseCase, ProjectCreateUseCase>();
             services.AddTransient<IProjectGetUseCase, ProjectGetUseCase>();
             services.AddTransient<IProjectUpdateUseCase, ProjectUpdateUseCase>();
+
+            services.AddTransient<IUserCreateUseCase, UserCreateUseCase>();
 
             services.AddInfrastructure(configuration);
         }

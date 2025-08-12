@@ -2,5 +2,6 @@
 
 namespace SoftwareHouse.Domain.Events.ProjectEvents
 {
-    public record ProjectPaused(Project Project);
+    public record StartedProject(Project Project);
+
 }

@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MongoDB.Bson" Version="3.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\05-CrossCutting\SoftwareHouse.CrossCutting\SoftwareHouse.CrossCutting.csproj" />
   </ItemGroup>
 
